@@ -1,0 +1,171 @@
+html {
+    background-color: rgba(122, 191, 191, .5);
+}
+
+body {
+    background-color: #F2F2F2;
+    width: 414px;
+    display:grid;
+}
+
+nav {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #EB5428;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+}
+
+h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color:black;
+    text-align: center;
+    padding-left: 8px;
+}
+
+img {
+    max-width: 414px;
+}
+
+li {
+    vertical-align: middle;
+}
+
+dl, dd, dt {
+    margin: 0;
+}
+
+dd { 
+    font-family: 'Montserrat', sans-serif;
+}
+
+dt {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+li {
+    vertical-align: center;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+footer img {
+    width:220px;
+}
+
+#details {
+    margin:0;
+}
+
+#main, #ingredients, #directions {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#mainMenu {
+    padding: 8px;
+    position: absolute;
+    top:15px;
+}
+
+#navigation {
+    overflow: hidden;
+    max-height: 0;
+}
+
+#navigation img {
+    max-width: 50px;
+}
+
+#navigation, #social {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #EB5428;
+}
+
+#search {
+    position: absolute;
+ 
+}
+
+#socialbuttons, nav ul {
+    display:inline-flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+#sides {
+    background-color: #7ABFBF;
+   
+}
+
+#sideDish h3, #sideDish dt, #sideDish dd, #sideDish svg {
+    margin: 0;
+    text-align: left;
+    display: flex;
+    position: relative;
+    top:-140px; left: 150px;
+}
+
+#sideDish img {
+    width: 120px;
+    padding: 12px;
+}
+
+#sideDish svg {
+    display: inline-flex;
+}
+
+@media screen and (min-width:768px) {
+
+body {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+h1 {
+    text-align: left;
+}
+html {
+    width: 768px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+img {
+    max-width: 768px;
+}
+main {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+#details {
+    text-align: center;
+}
+#ingredients {
+    grid-column-start: 1;
+    grid-column-end:2;
+}
+#directions {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+#search {
+    position: absolute;
+    top:0; left:700px;
+}
+}
+
+
+@media screen and (min-width:1280px) {
+    
+}
